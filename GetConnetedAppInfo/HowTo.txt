@@ -1,0 +1,3 @@
+To run the script you need to provide it with 4 arguments in the order bellow. 
+
+ruby get.rb <appName> <sandboxname> <username> <password>
