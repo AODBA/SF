@@ -5,7 +5,7 @@ class GetClientAndSecret < SalesforceWebBase
   def to_page()
     if ! @on_page
       go(uri:'https://test.salesforce.com')
-     # login( username: 'syntheticdata.integration@open.edu.au.base1', password: 'tGxgAVVBlUnd54542T5dMBKUSDlMi123.' )
+     # login( username: 'x.x@x.edu.au.base1', password: 'xxxxxx' )
       login( username: '#{Username}.#{SandboxName}', password: '#{Password}' )
       if @logged_in
         goto_page_from_link(linkname: 'Setup')
